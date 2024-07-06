@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#naslov {
+    text-align: center;
+    margin: 20px 0; 
+}
+
+#naslov h1 {
+    color: #32f1a2;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.table {
+    margin-bottom: 1rem;
+    width: 100%; 
+}
+
+.flag-icon {
+    width: 16px; 
+    height: 12px; 
+    margin-right: 5px;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: rgb(89, 180, 255); 
+    color: rgb(0, 247, 255);
+}
+
+.table td, .table th {
+    padding: 10px;
+}
